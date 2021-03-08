@@ -6,7 +6,7 @@ import { setSuccess } from '../../store/actions/authActions';
 import { RootState } from '../../store';
 import { Link } from 'react-router-dom';
 
-import './Dashboard.less';
+import './Dashboard.css';
 // import Button from '../UI/Button';
 
 const Dashboard: React.FC = () => {

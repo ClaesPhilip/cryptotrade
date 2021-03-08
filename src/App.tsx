@@ -1,7 +1,7 @@
 import React, { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { BrowserRouter, Switch } from 'react-router-dom';
-// import './App.scss';
+import './App.css';
 
 import Header from './components/sections/Header';
 import SignUp from './components/pages/SignUp';
