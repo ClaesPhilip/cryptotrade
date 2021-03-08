@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './Crypto.scss';
-
 import axios from 'axios';
+
+import './Crypto.less';
 
 export interface ICrypto {
   userId: number;

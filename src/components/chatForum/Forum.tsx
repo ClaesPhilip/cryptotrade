@@ -1,7 +1,7 @@
 import React from 'react';
 // import './App.css';
 
-import firebase from 'D:/KYH PLUGG/Folders/tradingview/src/firebase/config';
+import firebase from '../../firebase/config';
 import user from "../../../node_modules/firebase"  // FIREBASE CONSOLEN
 import 'firebase/firestore';
 import 'firebase/auth';
