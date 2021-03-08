@@ -1,6 +1,6 @@
 import React, { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserRouter, Switch, RouteComponentProps } from 'react-router-dom';
 import './App.css';
 
 import Header from './components/sections/Header';
@@ -23,6 +23,7 @@ import NewsPage from './components/news/NewsPage';
 const App: FC = () => {
   const dispatch = useDispatch();
   const { loading } = useSelector((state: RootState) => state.auth);
+
   
   // Check if user exists
   useEffect(() => {

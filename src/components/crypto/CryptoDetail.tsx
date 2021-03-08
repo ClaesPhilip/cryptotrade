@@ -1,8 +1,10 @@
 import React from 'react';
 
+import { RouteComponentProps } from 'react-router';
+
 import axios from 'axios';
 
-import './Crypto.less';
+import './Crypto.css';
 
 export interface ICrypto {
   userId: number;
